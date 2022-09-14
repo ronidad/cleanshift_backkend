@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "",
+  password: "H6XZ|}*@",
   database: "cleanshift",
 });
 
