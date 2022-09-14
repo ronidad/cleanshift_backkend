@@ -161,7 +161,7 @@ app.get('/get/payments', (_, res)=>{
   db.query(sql, (err,result)=>{
       if (err) throw err;
       res.send(result)
-      // console.log(result)
+      console.log(result)
   });
 });
 
