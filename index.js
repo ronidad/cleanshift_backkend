@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "H6XZ|}*@",
+  password: "",
   database: "cleanshift",
 });
 
@@ -293,4 +293,4 @@ function checkToken(req, res, next){
   }
 }
 
-app.listen(5000, () => console.log("server listening to port 5000"));
+app.listen(5001, () => console.log("server listening to port 5001"));
